@@ -4,3 +4,27 @@ body {
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.topnav {
+    background-color: #cfb594;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #40260f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #af9675;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #927957;
+    color: white;
+}
